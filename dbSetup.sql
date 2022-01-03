@@ -23,8 +23,12 @@ INSERT INTO
   castles(cname, clan, clocation, creatorId)
 VALUES
   (
-    "Downton2",
-    "Abby2",
-    "England2",
+    "Downton",
+    "Abby",
+    "England",
     "6199c3b1e8aa5014e38842f7"
   );
+SELECT
+  *
+FROM
+  castles
